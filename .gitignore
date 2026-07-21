@@ -1,0 +1,51 @@
+# Ambientes Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Pesados e Modelos (Não comitar no git!)
+*.pt
+*.pth
+*.zip
+*.avi
+*.mp4
+*.xlsx
+sam_b.pt
+best.pt
+
+# Pastas de datasets e caches gerados localmente
+cache_yolo_feats/
+cache_yolo_feats_crops/
+cache_yolo_feats_sobel/
+cache_yolo_feats_sobel_box/
+ckpt_mae/
+ckpt_mae_attn/
+ckpt_mae_crops/
+ckpt_mae_sobel/
+ckpt_mae_sobel_box/
+ckpt_mlp/
+frames_pool_crops/
+frames_pool_filtered/
+frames_train_vision_5642_frames/
+inspecao_lote/
+inspecao_novo_sem_crop/
+mlp_dataset/
+preview_sobel/
+segmentation_output/
+
+# Pastas de resultados e vídeos do usuário
+Vídeos Metricas Vision/
+Videos MLP/
+Resultados Finais/
+Inspecao MLP Video/
+Planilhas MLP Inspecao/
+Imagens_Test/
+Artigos/
+*.pdf
+
+# Outros
+*.txt
+!requirements.txt
