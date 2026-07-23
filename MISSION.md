@@ -5,9 +5,10 @@ Você é um agente da Frota Claude rodando este repositório. O objetivo desta m
 ## Passo a Passo da Execução:
 
 1. **Obtenção dos Dados (Vídeos):**
-   Como os vídeos pesados não foram commitados no repositório Git, o usuário configurará uma variável de ambiente ou fornecerá um link do Google Drive no ato da submissão da tarefa com o zip dos vídeos.
-   Se os vídeos não estiverem na pasta `Vídeos Metricas Vision/`, verifique se há instruções adicionais no log para baixá-los, ou aborte a missão informando que a pasta de vídeos não foi encontrada.
-
+   Baixe o arquivo ZIP contendo o dataset de vídeos no seguinte link do File Station (QNAP):
+   `https://10.1.83.35/share.cgi?ssid=60a8c2a515c74bbc87b357c45dba6a28`
+   Você precisará extrair o conteúdo desse ZIP de forma que a pasta resultante seja `Vídeos Metricas Vision/` na raiz do repositório.
+   *(Nota: Se o link direto exigir parse de HTML para encontrar o botão de download, sinta-se livre para usar scripts Python ou bash para extrair a URL real do arquivo)*.
 2. **Instalação de Dependências:**
    Assegure-se de que os pacotes necessários estão instalados:
    `pip install opencv-python numpy pandas matplotlib seaborn scipy torch torchvision`
